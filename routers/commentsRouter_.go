@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
@@ -15,7 +15,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
@@ -23,7 +23,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Get",
 			Router: `/:objectId`,
@@ -31,7 +31,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:objectId`,
@@ -39,7 +39,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:objectId`,
@@ -47,7 +47,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
@@ -55,7 +55,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Get",
 			Router: `/:uid`,
@@ -63,7 +63,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:uid`,
@@ -71,7 +71,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:uid`,
@@ -79,7 +79,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/getall`,
@@ -87,7 +87,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Login",
 			Router: `/login`,
@@ -95,7 +95,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"] = append(beego.GlobalControllerRouter["gitlab.33.cn/user_site/cloud_miner/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Logout",
 			Router: `/logout`,

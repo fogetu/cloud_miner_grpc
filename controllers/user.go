@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"gitlab.33.cn/site-res/go_system/system_grpc"
-	"gitlab.33.cn/site-service/miner-service-intf/mine_intf"
+	"github.com/fogetu/go_system/system_grpc"
+	"github.com/fogetu/miner_service_intf/mine_intf"
 	"github.com/fogetu/cloud_miner_grpc/models"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

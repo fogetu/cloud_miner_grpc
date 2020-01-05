@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"gitlab.33.cn/user_site/cloud_miner/models"
+	"github.com/fogetu/cloud_miner_grpc/models"
 	"encoding/json"
 
 	"github.com/astaxie/beego"

@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"gitlab.33.cn/user_site/cloud_miner/controllers"
+	"github.com/fogetu/cloud_miner_grpc/controllers"
 
 	"github.com/astaxie/beego"
 )

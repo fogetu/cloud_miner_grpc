@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "gitlab.33.cn/user_site/cloud_miner/routers"
+	_ "github.com/fogetu/cloud_miner_grpc/routers"
 
 	"github.com/astaxie/beego"
 )
