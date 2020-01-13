@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
+	"github.com/fogetu/cloud_miner_grpc/models"
 	"github.com/fogetu/go_system/system_grpc"
 	"github.com/fogetu/miner_service_intf/mine_intf"
-	"github.com/fogetu/cloud_miner_grpc/models"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
@@ -44,7 +44,9 @@ func (u *UserController) GetAll() {
 	c := mine_intf.NewPoolClient(conn)
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	defer cancel()
-	poolListResponse, err := c.GetList(ctx, &mine_intf.PoolListRequest{Page: 1, PageSize: 50})
+	var FilterField mine_intf.PoolFilterField;
+	FilterField.Id = "aa2111";
+	poolListResponse, err := c.GetList(ctx, &mine_intf.PoolListRequest{FilterField: &FilterField,Page: 1, PageSize: 1})
 	// _, err := c.GetList(ctx, &mine_intf.PoolListRequest{Page: 1, PageSize: 50})
 	if err != nil {
 		log.Fatalf("could not greet: %v", err)

@@ -22,8 +22,8 @@ github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.m
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
 github.com/fogetu/go_system v0.0.0-20200105054501-9d8c1acf1c3e h1:8Jvhs0hOoJYZ4tbWcSKilNpex2NMlWv+t7vB4K+Hgsk=
 github.com/fogetu/go_system v0.0.0-20200105054501-9d8c1acf1c3e/go.mod h1:wilCdchbBp91RV9FJjypRlmpQSMrdQ6ZnMDKEn+rAo8=
-github.com/fogetu/miner_service_intf v0.0.0-20181011133534-7bec62e10828 h1:Aqq5UQ8u1as8dhk+WCTbofVXXHBV9cfqa52uKixvErI=
-github.com/fogetu/miner_service_intf v0.0.0-20181011133534-7bec62e10828/go.mod h1:PbCc6gsPf9L7Tagt2EQaS8uu1wzQDSLjhh1hwhHOliw=
+github.com/fogetu/miner_service_intf v0.0.0-20200113151624-96513cf11c88 h1:Zedm2hd1QuQYEL3ROUzhlXA8mxbNqXfI1FslzaOV8S0=
+github.com/fogetu/miner_service_intf v0.0.0-20200113151624-96513cf11c88/go.mod h1:PbCc6gsPf9L7Tagt2EQaS8uu1wzQDSLjhh1hwhHOliw=
 github.com/go-redis/redis v6.14.2+incompatible/go.mod h1:NAIEuMOZ/fxfXJIrKDQDz8wamY7mA7PouImQ2Jvg6kA=
 github.com/go-sql-driver/mysql v1.4.1/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
