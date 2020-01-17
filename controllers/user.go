@@ -2,6 +2,7 @@ package controllers
 
 import (
 	"encoding/json"
+	"github.com/astaxie/beego/logs"
 	"log"
 	"time"
 
@@ -39,6 +40,7 @@ func (u *UserController) Post() {
 // @Failure 403 body is empty
 //@router /getall [get]
 func (u *UserController) GetAll() {
+	logs.Error("test111")
 	var conn *grpc.ClientConn
 	conn = system_grpc.GetConn("/mine/pool")
 	c := mine_intf.NewPoolClient(conn)
