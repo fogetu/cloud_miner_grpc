@@ -3,3 +3,6 @@
 .env
 .idea
 /storage
+/go.sum
+/conf/stg.app.conf
+/conf/prod.app.conf
