@@ -6,7 +6,6 @@ import (
 )
 
 func init() {
-
 	beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/fogetu/cloud_miner_grpc/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Post",

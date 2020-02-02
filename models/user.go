@@ -10,6 +10,9 @@ var (
 	UserList map[string]*User
 )
 
+
+
+
 func init() {
 	UserList = make(map[string]*User)
 	u := User{"user_11111", "astaxie", "11111", Profile{"male", 20, "Singapore", "astaxie@gmail.com"}}
