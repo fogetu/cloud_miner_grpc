@@ -2,6 +2,8 @@
 
 该项目基于BEEGO搭建，业务API基于标准的BEEGO，该项目采用了服务分离，通过GRPC调用miner_service_impl，miner_service_impl项目是GRPC的服务实现
 
+## 实验的API地址  [查看](http://106.54.93.177:8081/v1/user/getall)
+
 ## 项目运行
 
 go mod tidy && go mod vendor && go build -mod=vendor
